@@ -1,4 +1,4 @@
-# Oridata
+# Oridata Stand for (Object Representation Interface Data)
 Oridata is a fixed data that is capable of combining live calculations. It has to allow for embedded code, so that data can make its own calculations, decisions, or even change values when necessary. This will make Oridata the best option for applications that need data to be dynamic, flexible in real-time, and capable of changing on the fly.
 
 ### 1. Overview and Purpose
