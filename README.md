@@ -29,4 +29,24 @@ Oridata is a fixed data that is capable of combining live calculations. It has t
 }
 ```
 
+Table summarizing all the data types
+
+| **Data Type** | **Column Name** | **Description**                                                                                     |
+|---------------|-----------------|-----------------------------------------------------------------------------------------------------|
+| `object`      | `value`         | Represents an object that is not null or an array. It can contain nested objects.                  |
+| `array`       | `value`         | Represents an array.                                                                               |
+| `string`      | `value`         | Represents a sequence of characters.                                                              |
+| `number`      | `value`         | Represents a numerical value, including integers and floating-point numbers.                      |
+| `boolean`     | `value`         | Represents a `true` or `false` value.                                                             |
+| `datetime`    | `value`         | Represents a date or time. Accepts `Date` objects or valid date strings parseable by JavaScript.  |
+| `null`        | `value`         | Represents a null value.                                                                          |
+| `email`       | `UserEmail`     | Represents a valid email string, formatted like `example@domain.com`.                             |
+| `password`    | `UserPassword`  | Represents a strong password with at least 8 characters, including uppercase, lowercase, numbers, and special characters. |
+| `Int32`       | `Age`           | Represents a 32-bit signed integer ranging from -2147483648 to 2147483647.                        |
+| `Long`        | `LargeNumber`   | Represents a large integer using JavaScript's `BigInt`.                                           |
+| `Double`      | `Price`         | Represents a floating-point number (non-integer).                                                 |
+| `Decimal128`  | `Amount`        | Represents a decimal number (no special support for 128-bit precision in JavaScript).             |
+| `ObjectId`    | `UserId`        | Represents a MongoDB ObjectId in the format of a 24-character hexadecimal string.                 |
+
+
 Designed, Built and Maintained by [Imran Malik](https://Imranamanat.com) imran@imranamanat.com and [Jalsonic Secure Team](https://jalsonic.com). A Division of [Jalsonic Networks](https://jalsonic.com).
