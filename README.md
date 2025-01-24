@@ -7,4 +7,26 @@ Oridata is a fixed data that is capable of combining live calculations. It has t
 
 **Use Cases:** Explain scenarios where Oridata is beneficial. For example, configurations where computed values or dynamically generated content are needed, or complex data hierarchies that require flexibility.
 
+
+### Nested Structure
+
+`{
+  "<object> Root": {
+    "<email> UserEmail": "example@domain.com <<< JavaScript Code to update email >>>",
+    "<password> UserPassword": "StrongP@ss <<< JavaScript Code to hash password >>>",
+    "<Int32> Age": 30 <<< JavaScript Code to calculate age dynamically >>>,
+    "<object> Address": {
+      "<string> Street": "123 Main St",
+      "<string> City": "Sample City <<< JavaScript Code to set city dynamically >>>",
+      "<Int32> PostalCode": 12345
+    },
+    "<array> Tags": [
+      "<string> tag1 <<< JavaScript Code here >>>",
+      "<string> tag2 <<< JavaScript Code here >>>"
+    ]
+  }
+}
+`
+
+
 Designed, Built and Maintained by [Imran Malik](https://Imranamanat.com) imran@imranamanat.com and [Jalsonic Secure Team](https://jalsonic.com). A Division of [Jalsonic Networks](https://jalsonic.com).
