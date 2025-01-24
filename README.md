@@ -10,7 +10,8 @@ Oridata is a fixed data that is capable of combining live calculations. It has t
 
 ### Nested Structure
 
-`{
+<code>
+{
   "<object> Root": {
     "<email> UserEmail": "example@domain.com <<< JavaScript Code to update email >>>",
     "<password> UserPassword": "StrongP@ss <<< JavaScript Code to hash password >>>",
@@ -26,7 +27,8 @@ Oridata is a fixed data that is capable of combining live calculations. It has t
     ]
   }
 }
-`
+</code>
+
 
 
 Designed, Built and Maintained by [Imran Malik](https://Imranamanat.com) imran@imranamanat.com and [Jalsonic Secure Team](https://jalsonic.com). A Division of [Jalsonic Networks](https://jalsonic.com).
