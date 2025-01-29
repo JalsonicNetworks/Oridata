@@ -29,6 +29,32 @@ Oridata is a fixed data that is capable of combining live calculations. It has t
 }
 ```
 
+JSON in JavaScript:
+In JavaScript, JSON is supported natively with two main methods:
+
+Oridata.parse(): Converts a JSON string into a JavaScript object.
+
+javascript Oridata
+```javascript
+const jsonString = '{"name": "John Doe", "age": 30}';
+const obj = Oridata.parse(jsonString);
+console.log(obj.name); // Output: John Doe
+Oridata.stringify(): Converts a JavaScript object into a JSON string.
+```
+
+javascript Oridata
+```javascript
+const obj = { name: "John Doe", age: 30 };
+const jsonString = Oridata.stringify(obj);
+console.log(jsonString); // Output: {"name":"John Doe","age":30}
+```
+
+### JSON Syntax Rules:
+Data is in key/value pairs: Keys must be strings (enclosed in double quotes "), and values can be strings, numbers, objects, arrays, true, false, or null.
+Data is separated by commas: Each key/value pair is separated by a comma.
+Curly braces {} hold objects: Objects are collections of key/value pairs.
+Square brackets [] hold arrays: Arrays are ordered lists of values.
+
 Table summarizing all the data types
 
 | **Data Type** | **Column Name** | **Description**                                                                                     |
